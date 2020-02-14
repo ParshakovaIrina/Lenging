@@ -1,0 +1,247 @@
+body{
+    background: linear-gradient(41.63deg, rgb(0, 101, 184) 8.13%, rgb(0, 0, 0) 84.6%);
+    margin-left:-8px;
+}
+.main-title{
+    margin:3% 5%;
+    padding: 2%;
+    background-color: #131313;
+    box-shadow: 0 0 10px 7px black;
+}
+
+.scrollto{
+   position: relative;
+   display: block;
+   text-align: center;
+   width: 40%;
+   margin: 2% auto;
+    background-color: rgb(243, 245, 116) ;
+    border-radius: 12px;
+    padding: 4px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*КАРУСЕЛЬ*/
+.main-title-text{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(243, 245, 116);
+    margin-bottom: 2%;
+}
+.main-title-video{
+    width: 90%;
+    margin: 0 auto;
+}
+.vid{
+    width: 100%;
+    height:80vh;}
+
+/*СЛАЙДЕР*/
+
+.slider{
+    margin: 3%;
+    height: 90vh;
+    position: relative;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+.slider-body{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    flex-shrink:2;
+  
+}
+.slider-body-image{
+    width: 70%;
+    max-height: 90%;
+    margin: auto 0;
+}
+.slider-body-text{
+    position: relative;
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    font-size: 3vw;
+    width: 30%;   
+}
+.slider-body-image-size{
+    max-width: 100%; 
+    max-height: 100%;
+}
+.slider-button-position{
+    position: relative;
+
+}
+.slider-button{
+    background: rgba(255, 255, 255, 0.315);
+    text-align: center;
+    border-radius: none;
+}
+
+.slider-button :hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.123);
+    
+}
+
+/*СВОЙСТВА*/
+
+.properties{
+
+    border-top: 2px solid rgb(38, 0, 255);
+    border-bottom: 2px solid rgb(38, 0, 255);
+    padding: 3% 0;
+}
+
+.properties-colomn-text{
+    text-align: center;
+    margin-top: 4%;
+    font-weight: bold;
+    color: rgb(38, 0, 255);
+    font-size: 20px;
+}
+
+.properties-colomn-text:before {
+    content:"\20aa"; 
+   }
+
+.properties-colomn-list{
+    color:rgba(0, 101, 184, 0.726);
+    text-align: center;
+}
+
+/*ОБРАТНАЯ СВЯЗЬ*/
+
+.order{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-shrink:2;	
+    margin-top:2%;
+    padding: 2%;
+}
+
+.order-body{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-shrink:2;	
+}
+.order-prise{
+    margin:auto 0;
+    display: flex;
+    flex-direction: column;
+}
+.order-timer{
+    text-align: center;
+    font-weight: bold;
+}
+.order-timer-text{
+    color: #f00; 
+    font-size: 150%; 
+    text-align: center;
+}
+
+.order-old-prise{
+    text-decoration: line-through;
+    color: rgb(213, 214, 118);
+    text-align: center;
+    font-size:40px;
+}
+.order-new-prise{
+    font-size: 50px;
+    font-weight: bold;
+    color:red;
+    text-align: center;
+}
+
+.order-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(213, 214, 118);
+    box-shadow:inset 4px 4px 10px 7px black;
+    border-radius: 12px;
+    padding: 3%;
+    width:50%;
+    text-align: center;
+}
+.order-form-label{
+    margin:2%;
+}
+
+.send-button{
+    border-radius: 12px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: red;
+    box-shadow: inset 4px 4px 4px 4px black;
+}
+
+
+.botton-text{
+    color:rgb(0, 101, 184);
+    text-align: center;
+    font-weight: 100px;
+}
+
+.order-form-conditions{
+    font-size: 13px;
+    color: rgb(56, 56, 56);
+}
+
+@media screen and (max-width: 380px) {
+    
+
+}
+@media screen and (max-width: 599px) {
+    .main-title-text{
+        font-size: 7vw;
+    }
+
+    .order-form{
+        width: 100%;
+    }
+
+    .order-prise{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .order-old-prise{
+        font-size:30px;
+    }
+    .order-new-prise{
+        font-size: 30px;
+    }
+    .slider-body-text{
+        font-size: 5vw;
+        width: 100%;   
+    }
+    .slider-body-image{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 599px) {
+ 
+.properties-colomn{ 
+    transition: box-shadow 0.5s ease;
+}
+
+.properties-colomn:hover{
+    background-color: rgba(230, 230, 230, 0.089);
+    border-radius: 12px;
+    transition: box-shadow 0.5s ease;
+    box-shadow: 4px 4px 4px 4px #989898;
+}
+}

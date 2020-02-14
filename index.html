@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+        <script src="scr.js"> </script>
+    
+    </head>
+
+<body onload="startTimer()">
+    <div class="main-title">
+
+            <h1 class="main-title-text">Man’s formula® Potential Forte™</h1>
+            <div class="scrollto-position"><a class="scrollto" href="#buy_now">Buy now!</a></div>
+            <div class="main-title-video"><iframe class="vid" src="https://www.youtube.com/embed/RRdPjlQmrUc?autoplay=1&loop=1&&playlist=Video_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    
+
+        <div class="slider">
+            <div class="slider-body"> 
+                <div id="nam" class="slider-body-image"><img class="slider-body-image-size" src="image/desktop/men1.jpg"></div>
+                <div class="slider-body-text"><p id="tex">Men's formula for <b>energy, endurance, and immunity</b>
+                </p>
+            </div>
+            </div>
+            <div class="slider-button-position">
+                <button onclick="backSlide()" class="slider-button"> &laquo  </button>
+                <button onclick="nextSlide()" class="slider-button"> &raquo  </button>
+            </div>
+        </div>
+
+        <div  class="row properties">
+            <div class="properties-colomn col-lg-4 col-md-4 col-sm-12" >
+                    <p class="properties-colomn-text">Enhances your erection and libido</p>
+                    <ul class="properties-colomn-list">
+                        <li>Cayenne pepper extract</li>
+                        <li>Yohimbe extract</li>
+                        <li>Damiana Turner extract</li>
+                        <li>Green mussel extract</li>
+                    </ul>
+            </div >
+
+            <div class="properties-colomn col-lg-4 col-md-4 col-sm-12" >
+                <p class="properties-colomn-text">Promotes the production of testosterone</p>
+                <ul class="properties-colomn-list">
+                    <li>Zinc</li>
+                    <li>L-arginine</li>
+                    <li>Extract Muira Puama</li>
+                </ul>
+            </div >
+
+            <div  class="properties-colomn col-lg-4 col-md-4 col-sm-12">
+                <p class="properties-colomn-text">Increases stamina and enhances sexual sensations</p>
+                <ul class="properties-colomn-list">
+                    <li>Siberian ginseng extract</li>
+                    <li>Cayenne pepper extract</li>
+                    <li>Damiana Turner extract</li>
+                    <li>Extract of sarsaparilla</li>
+                </ul>
+            </div >
+        </div>
+   
+
+        <div id="buy_now" class="order">
+            <h1 class="main-title-text">Man’s formula® Potential Forte™</h1>
+            
+            <div class="order-body">
+                <div class="order-prise">
+                    <p class="order-old-prise"> &pound 100 </p>
+                    <p class="order-new-prise">&pound 40</p>
+                </div>
+        
+                <div class="order-form">
+                    <div> <label class="order-form-label" for="name">Name:</label><input type="text" id="name" class="order-form-input" placeholder="Ivanov Ivan"  required></div>
+                    <div> <label class="order-form-label" for="phone">Phone:</label><input type="text" id="phone" class="order-form-input" placeholder="+7 999-999-99-99" required></div>
+                    <button class="send-button">Send</button>
+                    <p class="order-form-conditions">*Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit reprehenderit eaque nobis repellat tempore nesciunt mollitia officiis veniam aut odit!</p>
+                </div> 
+             </div>
+  
+                <div class="order-timer-text"><p >
+                <span id="my_timer" class="order-timer">00:20:00</span>
+                 until the end of the promotion!</p>
+                </div>         
+            
+        </div>
+        <p class="botton-text">DIETARY SUPPLEMENT, NOT A MEDICINE</p>
+    </div>
+    
+   
+</body>
+</html>
